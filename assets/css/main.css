@@ -8,7 +8,7 @@
 .images-right{float:right;width:48%}
 .images-right img {
     display: inline-block;
-    max-height: 350px;
+    max-height: 430px;
     width: auto;
   }
   .images-right{
@@ -19,7 +19,7 @@
 .images-left{float:left;width:48%}
 .images-left img {
     display: inline-block;
-    max-height: 350px;
+    max-height: 430px;
     width: auto;
   }
 .images-left{
