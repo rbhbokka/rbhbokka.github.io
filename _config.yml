@@ -11,10 +11,5 @@ user_title: iOS Developer
 email: kirill.em@me.com
 twitter_username: rbhbokka
 github_username:  rbhbokka
-gplus_username:  lorem_ipsum
-
-# Google-analytics
-google-analytics:
-  id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
