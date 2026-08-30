@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1004" height="772" viewBox="0 0 1004 772" role="img" aria-hidden="true">
+  <rect width="1004" height="772" fill="#131317"/>
+
+  <!-- top app bar -->
+  <rect x="0" y="0" width="1004" height="56" fill="#1b1b21"/>
+  <line x1="0" y1="56" x2="1004" y2="56" stroke="rgba(255,255,255,.09)"/>
+  <rect x="412" y="23" width="180" height="10" rx="5" fill="#3a3a44"/>
+  <text x="966" y="32" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1" fill="#9a9aa3">CANCEL</text>
+
+  <!-- contact form: left column -->
+  <text x="62" y="102" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1" fill="#9a9aa3">CONTACT</text>
+  <g>
+    <rect x="62" y="144" width="64" height="8" rx="4" fill="#26262d"/><rect x="178" y="143" width="170" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="62" y="186" width="40" height="8" rx="4" fill="#26262d"/><rect x="178" y="185" width="122" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="62" y="228" width="70" height="8" rx="4" fill="#26262d"/><rect x="178" y="227" width="158" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="62" y="270" width="52" height="8" rx="4" fill="#26262d"/><rect x="178" y="269" width="200" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="62" y="312" width="58" height="8" rx="4" fill="#26262d"/><rect x="178" y="311" width="146" height="10" rx="5" fill="#3a3a44"/>
+  </g>
+
+  <!-- contact form: right column -->
+  <text x="543" y="102" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1" fill="#9a9aa3">EMERGENCY</text>
+  <g>
+    <rect x="543" y="144" width="70" height="8" rx="4" fill="#26262d"/><rect x="683" y="143" width="142" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="543" y="186" width="84" height="8" rx="4" fill="#26262d"/><rect x="683" y="185" width="164" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="543" y="228" width="66" height="8" rx="4" fill="#26262d"/><rect x="683" y="227" width="150" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="543" y="270" width="52" height="8" rx="4" fill="#26262d"/><rect x="683" y="269" width="200" height="10" rx="5" fill="#3a3a44"/>
+  </g>
+
+  <!-- map -->
+  <rect x="0" y="364" width="1004" height="408" fill="#101014"/>
+  <g stroke="rgba(255,255,255,.04)" stroke-width="1">
+    <line x1="125" y1="364" x2="125" y2="772"/><line x1="250" y1="364" x2="250" y2="772"/>
+    <line x1="375" y1="364" x2="375" y2="772"/><line x1="500" y1="364" x2="500" y2="772"/>
+    <line x1="625" y1="364" x2="625" y2="772"/><line x1="750" y1="364" x2="750" y2="772"/>
+    <line x1="875" y1="364" x2="875" y2="772"/>
+    <line x1="0" y1="468" x2="1004" y2="468"/><line x1="0" y1="568" x2="1004" y2="568"/>
+    <line x1="0" y1="668" x2="1004" y2="668"/>
+  </g>
+
+  <!-- landmass wash + coasts -->
+  <path d="M 60 364 L 655 364
+           C 645 400 638 430 648 460
+           C 655 485 650 510 655 535
+           C 660 570 680 620 692 670
+           C 700 710 706 740 710 772
+           L 330 772
+           C 315 735 300 710 285 690
+           C 262 668 245 655 238 630
+           C 228 600 222 575 205 555
+           C 190 535 208 522 212 505
+           C 205 480 180 465 165 440
+           C 150 415 128 400 95 388
+           C 80 382 68 376 60 372 Z"
+        fill="rgba(255,255,255,.06)"/>
+  <!-- barrier island sliver along east coast -->
+  <path d="M 658 428 C 668 490 680 560 700 632 C 704 644 698 646 694 636 C 676 570 662 490 652 434 Z"
+        fill="rgba(255,255,255,.04)"/>
+  <path d="M 655 364 C 645 400 638 430 648 460 C 655 485 650 510 655 535 C 660 570 680 620 692 670 C 700 710 706 740 710 772"
+        fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1.5"/>
+  <path d="M 330 772 C 315 735 300 710 285 690 C 262 668 245 655 238 630 C 228 600 222 575 205 555 C 190 535 208 522 212 505 C 205 480 180 465 165 440 C 150 415 128 400 95 388 C 80 382 68 376 60 372"
+        fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1.5"/>
+
+  <!-- lakes: background showing through -->
+  <ellipse cx="470" cy="470" rx="10" ry="7" fill="#101014"/>
+  <ellipse cx="404" cy="540" rx="7" ry="6" fill="#101014"/>
+  <ellipse cx="520" cy="622" rx="7" ry="10" fill="#101014"/>
+
+  <!-- soft water washes -->
+  <ellipse cx="860" cy="660" rx="130" ry="90" fill="rgba(255,255,255,.02)"/>
+  <ellipse cx="70" cy="650" rx="65" ry="85" fill="rgba(255,255,255,.02)"/>
+
+  <!-- roads -->
+  <g fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1.5">
+    <path d="M 212 462 C 250 442 290 430 340 425 C 450 418 540 420 600 430 C 622 470 636 520 640 540 C 650 570 660 588 668 600"/>
+    <path d="M 320 364 C 340 450 360 560 400 660 C 420 710 440 745 455 772"/>
+    <path d="M 205 470 C 220 540 250 610 285 676 C 300 710 315 740 330 772"/>
+  </g>
+
+  <!-- towns -->
+  <g>
+    <circle cx="198" cy="442" r="2" fill="#3a3a44"/><rect x="160" y="428" width="40" height="6" rx="3" fill="#26262d"/>
+    <circle cx="310" cy="420" r="2" fill="#3a3a44"/><rect x="284" y="402" width="44" height="6" rx="3" fill="#26262d"/>
+    <circle cx="600" cy="424" r="2" fill="#3a3a44"/><rect x="574" y="406" width="42" height="6" rx="3" fill="#26262d"/>
+    <circle cx="262" cy="612" r="2" fill="#3a3a44"/><rect x="274" y="609" width="44" height="6" rx="3" fill="#26262d"/>
+    <circle cx="668" cy="600" r="2" fill="#3a3a44"/><rect x="638" y="608" width="52" height="6" rx="3" fill="#26262d"/>
+  </g>
+
+  <!-- patient location: the data story -->
+  <circle cx="643" cy="526" r="40" fill="rgba(255,180,84,.12)" stroke="rgba(255,180,84,.35)" stroke-width="1.5"/>
+  <circle cx="643" cy="526" r="7" fill="#ffb454"/>
+
+  <!-- zoom rail -->
+  <g>
+    <rect x="916" y="420" width="40" height="40" rx="10" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <rect x="926" y="438.5" width="20" height="3" rx="1.5" fill="#3a3a44"/>
+    <rect x="916" y="468" width="40" height="40" rx="10" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <rect x="926" y="486.5" width="20" height="3" rx="1.5" fill="#3a3a44"/>
+    <rect x="934.5" y="478" width="3" height="20" rx="1.5" fill="#3a3a44"/>
+    <rect x="916" y="560" width="40" height="40" rx="10" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <polygon points="926,588 944,570 946,582 930,590" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+  </g>
+</svg>

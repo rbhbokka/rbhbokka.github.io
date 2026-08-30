@@ -104,71 +104,71 @@
   <p class="section-label">Selected work</p>
 
   <article class="case" id="onsite">
-    <p class="kicker">AI Clearing · construction tech</p>
+    <p class="kicker">Construction tech · drone surveying</p>
     <h2>2,000,000 points of interest at 60&nbsp;fps</h2>
-    <p>AI Clearing audits construction progress against drone surveys. Site engineers needed the result — every pile, trench, and cable run with its current status — on a phone they could hold standing in the dirt. A large site carries millions of surveyed objects.</p>
+    <p>A construction-tech startup audits build progress against drone surveys. Site engineers needed the result — every pile, trench, and cable run with its current status — on a phone they could hold standing in the dirt. A large site carries millions of surveyed objects.</p>
     <p>The budget ruled out server-side tiling. The phone got heavy GeoJSON and had to cope on its own.</p>
     <p>I designed and built the iOS app. I rewrote the parsing path so geometry streamed into Mapbox layers without intermediate models, and profiled until the full dataset panned smoothly with no memory spikes. I defined the data contract with the backend team. I built messaging on sockets and APNS so field crews could talk without leaving the map.</p>
     <div class="figs">
-      <img src="/assets/img/aic/map-poi.webp" width="460" height="995" loading="lazy" alt="OnSite Tracking on iPhone: satellite map of a construction site covered in columns of green and blue status markers">
-      <img src="/assets/img/aic/map-status.webp" width="460" height="995" loading="lazy" alt="OnSite Tracking status sheet for a tracker-pile installation, offering Surveyed and Installed states over the site map">
+      <img src="/assets/figs/survey-map.svg" width="460" height="996" loading="lazy" alt="Schematic of the field app's map screen: columns of survey markers with install status inside a site boundary">
+      <img src="/assets/figs/survey-status.svg" width="460" height="996" loading="lazy" alt="Schematic of the status sheet: choosing between surveyed and installed states over a dimmed site map">
     </div>
     <p class="stat"><span class="stat-num">2,000,000</span><span class="stat-label">points of interest on one live map, zero performance degradation</span></p>
     <p class="stack">Swift · Mapbox · GeoJSON · WebSockets · APNS</p>
-    <p class="case-link"><a href="https://apps.apple.com/us/app/onsite-tracking/id1671541024" target="_blank" rel="noopener">OnSite Tracking on the App&nbsp;Store&nbsp;↗</a></p>
+    <p class="case-link"><a href="https://apps.apple.com/us/app/id1671541024" target="_blank" rel="noopener">On the App&nbsp;Store&nbsp;↗</a></p>
   </article>
 
   <article class="case" id="platform">
-    <p class="kicker">Walmart Global Tech · 2024–present</p>
+    <p class="kicker">Global retail · 2024–present</p>
     <h2>The platform layer at a Fortune-1 retailer</h2>
-    <p>Walmart Business is one iOS app built by many teams at once. The expensive failures don't live inside any single feature — they live at the boundaries, where a change in one team's plugin blocks another team's merge.</p>
+    <p>The retailer's B2B commerce app is one iOS codebase built by many teams at once. The expensive failures don't live inside any single feature — they live at the boundaries, where a change in one team's plugin blocks another team's merge.</p>
     <p>At that scale you don't fix boundaries with meetings. You fix them with architecture.</p>
     <p>I work on the plugin boundaries. I replaced heavy cross-module coupling with a small open API, kept feature logic contained in its own plugin, and split PRs so each piece lands with the one team that owns it. My features ride that structure: an approvals experience owned end to end, a GraphQL layer delivered from scratch inside a tight window, an Apple Pay integration built to production wallet guidelines in 3 days. For a driver-facing delivery app I took a vague requirement, proposed a better UX, and validated it in the field with live data.</p>
     <p>I also built an agent-orchestration platform used daily by hundreds of engineers at a Fortune-1 retailer. It reads a ticket, sets up the environment, spawns an agent per stage, and tracks the parallel sessions, so engineers ship several changes at once instead of babysitting one build through CI. I lead its feature team and keep the R&D for myself.</p>
     <p class="stat"><span class="stat-num">+6%</span><span class="stat-label">successful order acceptance after the delivery UX rework</span></p>
     <p class="stack">Swift · plugin architecture · GraphQL · Apple Pay · TypeScript · Claude SDK</p>
-    <p class="case-link"><a href="https://apps.apple.com/us/app/walmart-business-b2b-shopping/id6444632587" target="_blank" rel="noopener">Walmart Business on the App&nbsp;Store&nbsp;↗</a></p>
+    <p class="case-link"><a href="https://apps.apple.com/us/app/id6444632587" target="_blank" rel="noopener">On the App&nbsp;Store&nbsp;↗</a></p>
   </article>
 
   <article class="case" id="pip">
-    <p class="kicker">E*Trade · 2018–2020</p>
+    <p class="kicker">US online brokerage · 2018–2020</p>
     <h2>Picture-in-Picture before iOS shipped it</h2>
-    <p>Power E*TRADE traders watch Bloomberg news while they watch their positions. In 2018 the iPhone had no picture-in-picture — iOS 14 was two years away.</p>
+    <p>Pro traders watch live financial news while they watch their positions. In 2018 the iPhone had no picture-in-picture — iOS 14 was two years away.</p>
     <p>The video had to keep playing over screens streaming live market data, without stuttering either one.</p>
-    <p>On a 13-engineer iOS team I built a reusable AVKit component that floated the Bloomberg stream over the app, then hardened it into a library other screens could adopt. I led the UI refactor that gave the whole app theme support, backed by a custom theme library. I rebuilt legacy Objective-C UI libraries as reusable Swift components and wrote fast market-data streaming modules underneath them.</p>
+    <p>On a 13-engineer iOS team I built a reusable AVKit component that floated the news stream over the app, then hardened it into a library other screens could adopt. I led the UI refactor that gave the whole app theme support, backed by a custom theme library. I rebuilt legacy Objective-C UI libraries as reusable Swift components and wrote fast market-data streaming modules underneath them.</p>
     <div class="figs">
-      <img src="/assets/img/etrade/options.webp" width="460" height="997" loading="lazy" alt="Power E*TRADE options chain on iPhone: calls and puts with strike prices, bids, and asks in a dense dark table">
-      <img src="/assets/img/etrade/ladder.webp" width="460" height="997" loading="lazy" alt="Power E*TRADE futures ladder on iPhone showing market depth with buy and sell order columns">
+      <img src="/assets/figs/markets-options.svg" width="460" height="996" loading="lazy" alt="Schematic of the options-chain screen: calls and puts in a dense table around a highlighted strike column">
+      <img src="/assets/figs/markets-ladder.svg" width="460" height="996" loading="lazy" alt="Schematic of the futures depth ladder: bid and ask bars stepping around a central price column">
     </div>
     <p class="stat"><span class="stat-num">2 years</span><span class="stat-label">ahead of the iPhone's native picture-in-picture</span></p>
     <p class="stack">Swift · Objective-C · AVKit · WebSockets · CoreData</p>
-    <p class="case-link"><a href="https://apps.apple.com/us/app/power-e-trade-advanced-trading/id1111881020" target="_blank" rel="noopener">Power E*TRADE on the App&nbsp;Store&nbsp;↗</a></p>
+    <p class="case-link"><a href="https://apps.apple.com/us/app/id1111881020" target="_blank" rel="noopener">On the App&nbsp;Store&nbsp;↗</a></p>
   </article>
 
   <article class="case" id="peru">
-    <p class="kicker">Scalpel At The Cross · volunteer · 2021–2023</p>
+    <p class="kicker">Surgical nonprofit · volunteer · 2021–2023</p>
     <h2>Medical records where the network never comes back</h2>
-    <p>Scalpel At The Cross runs a surgical ministry in Pucallpa, Peru. Patient records live on a fleet of iPads in a facility with no internet — not slow internet, none, and no fallback coming.</p>
+    <p>A surgical ministry operates in Pucallpa, Peru. Patient records live on a fleet of iPads in a facility with no internet — not slow internet, none, and no fallback coming.</p>
     <p>Devices drift apart for months between sync windows. A bad merge isn't a UI glitch there; it's a wrong medical record.</p>
     <p>I supported and extended the offline-first records system and built the SQL-based sync server that reconciles the fleet. The merge logic is written for life-critical correctness: month-scale windows, multi-device conflicts, no tolerance for eventual-consistency drift. When the project needed more hands than mine, I went and found the developers myself.</p>
     <div class="figs figs-wide">
-      <img src="/assets/img/scalpel/patient-card.webp" width="1004" height="772" loading="lazy" alt="Patient card on iPad: demographics, visit timeline, and medical alerts for a surgical campaign, shown with placeholder data">
-      <img src="/assets/img/scalpel/patient-location.webp" width="1004" height="772" loading="lazy" alt="Patient location screen on iPad: contact fields beside a map with a pinned location, shown with placeholder data">
+      <img src="/assets/figs/records-card.svg" width="1004" height="772" loading="lazy" alt="Schematic of the patient card on iPad: demographics, visit timeline, and an alerts banner">
+      <img src="/assets/figs/records-location.svg" width="1004" height="772" loading="lazy" alt="Schematic of the patient location screen: contact fields above a map with a pinned location">
     </div>
     <p class="stat"><span class="stat-num">0</span><span class="stat-label">drift tolerated across month-scale offline windows</span></p>
     <p class="stack">Swift · SQLite · CoreData · MapKit</p>
-    <p class="case-link"><a href="https://scalpelatthecross.org" target="_blank" rel="noopener">scalpelatthecross.org&nbsp;↗</a></p>
+    <p class="case-link"><a href="https://scalpelatthecross.org" target="_blank" rel="noopener">The ministry's site&nbsp;↗</a></p>
   </article>
 
   <article class="case" id="zerobug">
-    <p class="kicker">Albert Heijn · EPAM · 2015–2020</p>
+    <p class="kicker">Dutch grocery leader · 2015–2020</p>
     <h2>8,000 tests, zero bugs</h2>
-    <p>Albert Heijn's flagship app serves the largest grocery chain in the Netherlands. The team ran a zero-bug policy: nothing known-broken ships, ever.</p>
+    <p>I worked on the flagship app of the largest grocery chain in the Netherlands. The team ran a zero-bug policy: nothing known-broken ships, ever.</p>
     <p>A policy like that lives or dies on its test suite.</p>
     <p>I maintained the 8,000-test suite — unit and snapshot — that made the team's policy workable, and kept it green while shipping my own features: a large webview screen rebuilt as native dynamic components, a legacy Objective-C geolocation module rewritten as a reusable Swift one. The instinct came from 3 years in test automation before iOS, where I cut a major suite's runtime 20× through parallelization and ran sessions for Google's mobile automation team.</p>
     <div class="figs">
-      <img src="/assets/img/ah/home.webp" width="460" height="996" loading="lazy" alt="Albert Heijn flagship app home screen on iPhone with bonus deals, loyalty stamps, and produce offers">
-      <img src="/assets/img/ah/recipes.webp" width="460" height="996" loading="lazy" alt="Albert Heijn recipes tab on iPhone with search, recipe categories, and a weekly menu">
+      <img src="/assets/figs/grocery-home.svg" width="460" height="996" loading="lazy" alt="Schematic of the grocery app home screen: deal tiles, loyalty stamps, and produce cards">
+      <img src="/assets/figs/grocery-recipes.svg" width="460" height="996" loading="lazy" alt="Schematic of the recipes tab: search field, category circles, and a weekly menu card">
     </div>
     <p class="stat"><span class="stat-num">8,000</span><span class="stat-label">unit and snapshot tests, kept green</span></p>
     <p class="stack">Swift · XCTest · SnapKit · Appium · Selenium</p>
@@ -195,7 +195,7 @@
 
   <article class="lab-item">
     <h3>FPV drones</h3>
-    <p>I solder and fly FPV quadcopters, and I'm a member of the Belarus Federation of Unmanned Aviation. Radio links, video links, and power systems are the same engineering as software — just less forgiving of bugs.</p>
+    <p>I solder and fly FPV quadcopters, and I'm a member of a national federation of unmanned aviation. Radio links, video links, and power systems are the same engineering as software — just less forgiving of bugs.</p>
     <p class="stack">FPV · UAV · soldering iron</p>
   </article>
 
@@ -211,13 +211,13 @@
 <section class="section" id="archive">
   <p class="section-label">Everything else</p>
   <ul class="archive">
-    <li><span class="a-name">AI Smart Bot</span><span class="a-desc">GPT-4 chat assistant, #80 in App Store Productivity</span><a class="a-link" href="https://apps.apple.com/us/app/ai-smart-bot-chatbot-assistant/id6449835125" target="_blank" rel="noopener">App&nbsp;Store&nbsp;↗</a></li>
-    <li><span class="a-name">Mealzap</span><span class="a-desc">two meal-delivery apps for a Dubai startup, team of 4 led to launch</span></li>
-    <li><span class="a-name">CyclingPlanner</span><span class="a-desc">training tracker for professional cyclists, Strava and Garmin integrations</span></li>
-    <li><span class="a-name">SmartTeach</span><span class="a-desc">documentation and family-communication app for teachers</span><a class="a-link" href="https://apps.apple.com/us/app/smartteach/id1663286926" target="_blank" rel="noopener">App&nbsp;Store&nbsp;↗</a></li>
-    <li><span class="a-name">Docutrial</span><span class="a-desc">PDF editor and document manager for multi-user teams</span><a class="a-link" href="https://apps.apple.com/us/app/docutrial/id1329548148" target="_blank" rel="noopener">App&nbsp;Store&nbsp;↗</a></li>
-    <li><span class="a-name">Medical delivery tracking</span><span class="a-desc">route planner for regulated medical deliveries</span></li>
-    <li><span class="a-name">Horizon GO</span><span class="a-desc">TV-everywhere app, ~400 automated tests across 4 platforms</span></li>
+    <li><span class="a-name">Chat assistant</span><span class="a-desc">GPT-4 chat app, reached #80 in App Store Productivity</span><a class="a-link" href="https://apps.apple.com/us/app/id6449835125" target="_blank" rel="noopener">App&nbsp;Store&nbsp;↗</a></li>
+    <li><span class="a-name">Meal delivery</span><span class="a-desc">two delivery apps for a Dubai startup, team of 4 led to launch</span></li>
+    <li><span class="a-name">Cycling coach</span><span class="a-desc">training tracker for professional cyclists, Strava and Garmin integrations</span></li>
+    <li><span class="a-name">Teacher tools</span><span class="a-desc">documentation and family-communication app for teachers</span><a class="a-link" href="https://apps.apple.com/us/app/id1663286926" target="_blank" rel="noopener">App&nbsp;Store&nbsp;↗</a></li>
+    <li><span class="a-name">Document manager</span><span class="a-desc">PDF editor and document workspace for multi-user teams</span><a class="a-link" href="https://apps.apple.com/us/app/id1329548148" target="_blank" rel="noopener">App&nbsp;Store&nbsp;↗</a></li>
+    <li><span class="a-name">Medical logistics</span><span class="a-desc">route planner for regulated medical deliveries</span></li>
+    <li><span class="a-name">TV everywhere</span><span class="a-desc">streaming-TV app, ~400 automated tests across 4 platforms</span></li>
   </ul>
 </section>
 
@@ -225,7 +225,7 @@
 
 <section class="section" id="about">
   <p class="section-label">About</p>
-  <p class="about-text">iOS engineer with a hardware habit. I started in test automation, spent 3 years breaking mobile apps, and crossed over to building them on the same trading-platform account. Since then the work has run wide: a brokerage, the largest grocery app in the Netherlands, meal delivery in Dubai, offline medical records in Peru, and now the platform layer of Walmart Business. The thread through all of it hasn't changed — I build the layer other engineers build on: plugin boundaries, shared components, the APIs a team stands on. When I'm not writing Swift, I'm writing shader code, soldering quadcopters, or running a 3D printer.</p>
+  <p class="about-text">iOS engineer with a hardware habit. I started in test automation, spent 3 years breaking mobile apps, and crossed over to building them on the same trading-platform account. Since then the work has run wide: a brokerage, the largest grocery app in the Netherlands, meal delivery in Dubai, offline medical records in Peru, and now the platform layer of a Fortune-1 retailer's commerce app. The thread through all of it hasn't changed — I build the layer other engineers build on: plugin boundaries, shared components, the APIs a team stands on. When I'm not writing Swift, I'm writing shader code, soldering quadcopters, or running a 3D printer.</p>
 </section>
 </main>
 

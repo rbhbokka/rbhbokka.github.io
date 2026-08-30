@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="996" viewBox="0 0 460 996" role="img" aria-hidden="true">
+  <rect width="460" height="996" fill="#131317"/>
+  <rect width="460" height="996" fill="#101014"/>
+
+  <!-- survey grid -->
+  <g stroke="rgba(255,255,255,.04)" stroke-width="1">
+    <line x1="60" y1="0" x2="60" y2="996"/><line x1="120" y1="0" x2="120" y2="996"/>
+    <line x1="180" y1="0" x2="180" y2="996"/><line x1="240" y1="0" x2="240" y2="996"/>
+    <line x1="300" y1="0" x2="300" y2="996"/><line x1="360" y1="0" x2="360" y2="996"/>
+    <line x1="420" y1="0" x2="420" y2="996"/>
+    <line x1="0" y1="120" x2="460" y2="120"/><line x1="0" y1="240" x2="460" y2="240"/>
+    <line x1="0" y1="360" x2="460" y2="360"/><line x1="0" y1="480" x2="460" y2="480"/>
+    <line x1="0" y1="600" x2="460" y2="600"/><line x1="0" y1="720" x2="460" y2="720"/>
+    <line x1="0" y1="840" x2="460" y2="840"/>
+  </g>
+  <ellipse cx="330" cy="430" rx="150" ry="110" fill="rgba(255,255,255,.02)"/>
+  <ellipse cx="140" cy="700" rx="120" ry="90" fill="rgba(255,255,255,.02)"/>
+
+  <!-- site boundary: segmented array rows along left edge and bottom -->
+  <path d="M 96 140 L 96 858 L 434 858" fill="none" stroke="rgba(255,180,84,.55)" stroke-width="8" stroke-dasharray="3 7"/>
+  <path d="M 110 150 L 110 844 L 426 844" fill="none" stroke="rgba(255,180,84,.25)" stroke-width="1.5"/>
+
+  <!-- survey marker columns: connector line + mixed installed (filled) / surveyed (outline) -->
+  <g stroke="rgba(255,180,84,.25)" stroke-width="6">
+    <line x1="150" y1="170" x2="150" y2="820"/><line x1="208" y1="170" x2="208" y2="820"/>
+    <line x1="266" y1="170" x2="266" y2="820"/><line x1="324" y1="170" x2="324" y2="820"/>
+    <line x1="382" y1="170" x2="382" y2="820"/>
+  </g>
+  <g fill="#ffb454">
+    <circle cx="150" cy="229" r="7"/><circle cx="150" cy="288" r="7"/><circle cx="150" cy="406" r="7"/><circle cx="150" cy="465" r="7"/><circle cx="150" cy="524" r="7"/><circle cx="150" cy="642" r="7"/><circle cx="150" cy="701" r="7"/><circle cx="150" cy="760" r="7"/>
+    <circle cx="208" cy="170" r="7"/><circle cx="208" cy="288" r="7"/><circle cx="208" cy="347" r="7"/><circle cx="208" cy="465" r="7"/><circle cx="208" cy="524" r="7"/><circle cx="208" cy="583" r="7"/><circle cx="208" cy="701" r="7"/><circle cx="208" cy="760" r="7"/><circle cx="208" cy="819" r="7"/>
+    <circle cx="266" cy="170" r="7"/><circle cx="266" cy="229" r="7"/><circle cx="266" cy="347" r="7"/><circle cx="266" cy="406" r="7"/><circle cx="266" cy="524" r="7"/><circle cx="266" cy="583" r="7"/><circle cx="266" cy="642" r="7"/><circle cx="266" cy="760" r="7"/><circle cx="266" cy="819" r="7"/>
+    <circle cx="324" cy="229" r="7"/><circle cx="324" cy="288" r="7"/><circle cx="324" cy="347" r="7"/><circle cx="324" cy="465" r="7"/><circle cx="324" cy="583" r="7"/><circle cx="324" cy="642" r="7"/><circle cx="324" cy="819" r="7"/>
+    <circle cx="382" cy="170" r="7"/><circle cx="382" cy="288" r="7"/><circle cx="382" cy="406" r="7"/><circle cx="382" cy="524" r="7"/><circle cx="382" cy="642" r="7"/><circle cx="382" cy="701" r="7"/><circle cx="382" cy="760" r="7"/>
+  </g>
+  <g fill="#101014" stroke="#ffb454" stroke-width="1.5">
+    <circle cx="150" cy="170" r="7"/><circle cx="150" cy="347" r="7"/><circle cx="150" cy="583" r="7"/><circle cx="150" cy="819" r="7"/>
+    <circle cx="208" cy="229" r="7"/><circle cx="208" cy="406" r="7"/><circle cx="208" cy="642" r="7"/>
+    <circle cx="266" cy="288" r="7"/><circle cx="266" cy="465" r="7"/><circle cx="266" cy="701" r="7"/>
+    <circle cx="324" cy="170" r="7"/><circle cx="324" cy="406" r="7"/><circle cx="324" cy="524" r="7"/><circle cx="324" cy="701" r="7"/><circle cx="324" cy="760" r="7"/>
+    <circle cx="382" cy="229" r="7"/><circle cx="382" cy="347" r="7"/><circle cx="382" cy="465" r="7"/><circle cx="382" cy="583" r="7"/><circle cx="382" cy="819" r="7"/>
+  </g>
+
+  <!-- compass -->
+  <circle cx="52" cy="150" r="15" fill="#131317" stroke="#3a3a44" stroke-width="1.5"/>
+  <polygon points="52,139 47,150 57,150" fill="#ffb454"/>
+  <polygon points="52,161 47,150 57,150" fill="#3a3a44"/>
+
+  <!-- scale bar -->
+  <rect x="200" y="70" width="60" height="8" rx="4" fill="#26262d"/>
+  <g stroke="#3a3a44" stroke-width="1.5">
+    <line x1="170" y1="90" x2="290" y2="90"/>
+    <line x1="170" y1="84" x2="170" y2="96"/>
+    <line x1="230" y1="86" x2="230" y2="94"/>
+    <line x1="290" y1="84" x2="290" y2="96"/>
+  </g>
+
+  <!-- control rail -->
+  <g>
+    <rect x="388" y="250" width="44" height="44" rx="10" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <path d="M 400 270 L 407 264 L 413 270 L 420 264" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <path d="M 400 278 L 407 272 L 413 278 L 420 272" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <rect x="388" y="302" width="44" height="44" rx="10" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <circle cx="410" cy="324" r="9" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <circle cx="410" cy="324" r="2.5" fill="#3a3a44"/>
+    <rect x="388" y="354" width="44" height="44" rx="10" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <polygon points="410,367 418,385 410,380 402,385" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <rect x="388" y="406" width="44" height="44" rx="10" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <path d="M 403 440 L 403 418 L 418 422 L 403 426" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+  </g>
+
+  <!-- avatar -->
+  <circle cx="410" cy="490" r="20" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+  <circle cx="410" cy="484" r="6" fill="#3a3a44"/>
+  <path d="M 399 500 Q 410 490 421 500" fill="#3a3a44"/>
+
+  <!-- status bar -->
+  <rect x="30" y="20" width="34" height="10" rx="5" fill="#3a3a44"/>
+  <rect x="382" y="21" width="14" height="8" rx="2" fill="#3a3a44"/>
+  <rect x="402" y="21" width="14" height="8" rx="2" fill="#3a3a44"/>
+  <rect x="422" y="20" width="18" height="10" rx="3" fill="#3a3a44"/>
+</svg>

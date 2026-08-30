@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="996" viewBox="0 0 460 996" role="img" aria-hidden="true">
+  <rect width="460" height="996" fill="#131317"/>
+
+  <!-- status bar -->
+  <rect x="30" y="20" width="34" height="10" rx="5" fill="#3a3a44"/>
+  <rect x="382" y="21" width="14" height="8" rx="2" fill="#3a3a44"/>
+  <rect x="402" y="21" width="14" height="8" rx="2" fill="#3a3a44"/>
+  <rect x="422" y="20" width="18" height="10" rx="3" fill="#3a3a44"/>
+
+  <!-- header: greeting + two icon squares -->
+  <rect x="30" y="66" width="180" height="10" rx="5" fill="#3a3a44"/>
+  <rect x="358" y="58" width="26" height="26" rx="8" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+  <rect x="365" y="67" width="12" height="8" rx="2" fill="#26262d"/>
+  <rect x="398" y="58" width="26" height="26" rx="8" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+  <circle cx="411" cy="68" r="4" fill="#26262d"/>
+  <path d="M 404 78 Q 411 71 418 78" fill="#26262d"/>
+
+  <!-- feature tiles -->
+  <g transform="translate(0,8)">
+    <rect x="30" y="104" width="192" height="84" rx="12" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <rect x="46" y="126" width="40" height="40" rx="10" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <circle cx="59" cy="139" r="4" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+    <circle cx="73" cy="153" r="4" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+    <line x1="55" y1="157" x2="77" y2="135" stroke="#ffb454" stroke-width="1.5"/>
+    <rect x="100" y="130" width="84" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="100" y="150" width="60" height="8" rx="4" fill="#26262d"/>
+  </g>
+  <g transform="translate(0,8)">
+    <rect x="238" y="104" width="192" height="84" rx="12" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <rect x="254" y="126" width="40" height="40" rx="10" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <circle cx="274" cy="146" r="10" fill="none" stroke="#ffb454" stroke-width="1.5" stroke-dasharray="2 3"/>
+    <circle cx="274" cy="146" r="3" fill="#ffb454"/>
+    <rect x="308" y="130" width="70" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="308" y="150" width="52" height="8" rx="4" fill="#26262d"/>
+  </g>
+
+  <!-- loyalty stamp card -->
+  <g transform="translate(0,16)">
+  <rect x="30" y="204" width="400" height="76" rx="12" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+  <rect x="54" y="222" width="96" height="10" rx="5" fill="#3a3a44"/>
+  <text x="406" y="232" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1" fill="#9a9aa3">2/5</text>
+  <g>
+    <circle cx="64" cy="256" r="10" fill="#ffb454"/>
+    <circle cx="100" cy="256" r="10" fill="#ffb454"/>
+    <circle cx="136" cy="256" r="10" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+    <circle cx="172" cy="256" r="10" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+    <circle cx="208" cy="256" r="10" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+  </g>
+  </g>
+
+  <!-- section header: bonus deals -->
+  <g transform="translate(0,26)">
+  <text x="30" y="326" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1" fill="#ffb454">BONUS</text>
+  <rect x="102" y="316" width="120" height="10" rx="5" fill="#3a3a44"/>
+  <rect x="30" y="338" width="216" height="8" rx="4" fill="#26262d"/>
+  </g>
+
+  <!-- product card 1 -->
+  <g transform="translate(0,34)">
+    <rect x="30" y="362" width="192" height="210" rx="12" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <circle cx="126" cy="430" r="40" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <circle cx="112" cy="418" r="13" fill="#26262d"/>
+    <circle cx="142" cy="434" r="10" fill="#26262d"/>
+    <circle cx="118" cy="448" r="8" fill="#26262d"/>
+    <rect x="44" y="482" width="76" height="22" rx="99" fill="rgba(255,180,84,.12)" stroke="#ffb454"/>
+    <rect x="56" y="490" width="52" height="6" rx="3" fill="#ffb454"/>
+    <rect x="44" y="514" width="128" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="44" y="530" width="88" height="8" rx="4" fill="#26262d"/>
+    <rect x="44" y="546" width="56" height="14" rx="5" fill="#ffb454"/>
+    <rect x="108" y="550" width="40" height="8" rx="4" fill="#26262d"/>
+    <circle cx="194" cy="552" r="13" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+    <path d="M 194 546 L 194 558 M 188 552 L 200 552" stroke="#ffb454" stroke-width="1.5"/>
+  </g>
+
+  <!-- product card 2 -->
+  <g transform="translate(0,34)">
+    <rect x="238" y="362" width="192" height="210" rx="12" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <circle cx="334" cy="430" r="40" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <circle cx="324" cy="414" r="8" fill="#26262d"/>
+    <circle cx="342" cy="422" r="8" fill="#26262d"/>
+    <circle cx="330" cy="432" r="8" fill="#26262d"/>
+    <circle cx="346" cy="440" r="8" fill="#26262d"/>
+    <circle cx="332" cy="450" r="8" fill="#26262d"/>
+    <rect x="252" y="482" width="64" height="22" rx="99" fill="rgba(255,180,84,.12)" stroke="#ffb454"/>
+    <rect x="264" y="490" width="40" height="6" rx="3" fill="#ffb454"/>
+    <rect x="252" y="514" width="112" height="10" rx="5" fill="#3a3a44"/>
+    <rect x="252" y="530" width="72" height="8" rx="4" fill="#26262d"/>
+    <rect x="252" y="546" width="56" height="14" rx="5" fill="#ffb454"/>
+    <rect x="316" y="550" width="40" height="8" rx="4" fill="#26262d"/>
+    <circle cx="402" cy="552" r="13" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+    <path d="M 402 546 L 402 558 M 396 552 L 408 552" stroke="#ffb454" stroke-width="1.5"/>
+  </g>
+
+  <!-- peeking section: title bar + image strip -->
+  <rect x="30" y="650" width="224" height="10" rx="5" fill="#3a3a44"/>
+  <g>
+    <rect x="30" y="690" width="192" height="240" rx="12" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <circle cx="126" cy="768" r="40" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <circle cx="114" cy="756" r="12" fill="#26262d"/>
+    <circle cx="138" cy="778" r="9" fill="#26262d"/>
+    <rect x="44" y="836" width="96" height="8" rx="4" fill="#26262d"/>
+  </g>
+  <g>
+    <rect x="238" y="690" width="192" height="240" rx="12" fill="#1b1b21" stroke="rgba(255,255,255,.09)"/>
+    <circle cx="334" cy="768" r="40" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <circle cx="326" cy="758" r="11" fill="#26262d"/>
+    <circle cx="344" cy="776" r="8" fill="#26262d"/>
+    <rect x="252" y="836" width="80" height="8" rx="4" fill="#26262d"/>
+  </g>
+
+  <!-- bottom tab bar, active slot 1 -->
+  <rect x="0" y="912" width="460" height="84" fill="#131317"/>
+  <line x1="0" y1="912" x2="460" y2="912" stroke="rgba(255,255,255,.09)"/>
+  <g>
+    <rect x="37" y="932" width="18" height="18" rx="5" fill="none" stroke="#ffb454" stroke-width="1.5"/>
+    <rect x="28" y="962" width="36" height="6" rx="3" fill="#ffb454"/>
+    <rect x="129" y="932" width="18" height="18" rx="5" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <rect x="120" y="962" width="36" height="6" rx="3" fill="#26262d"/>
+    <rect x="221" y="932" width="18" height="18" rx="5" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <rect x="212" y="962" width="36" height="6" rx="3" fill="#26262d"/>
+    <rect x="313" y="932" width="18" height="18" rx="5" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <rect x="304" y="962" width="36" height="6" rx="3" fill="#26262d"/>
+    <circle cx="334" cy="930" r="4.5" fill="#3a3a44"/>
+    <rect x="405" y="932" width="18" height="18" rx="5" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+    <rect x="396" y="962" width="36" height="6" rx="3" fill="#26262d"/>
+  </g>
+</svg>
